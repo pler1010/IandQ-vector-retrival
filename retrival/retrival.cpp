@@ -19,4 +19,8 @@ void Retriever::insert(const Vector &vec){
         }
     }
 }
-std::vector<Vector> Retriever::query(const Vector &vec){}
+std::vector<Vector> Retriever::query(const Vector &vec,int k){
+    for(int i=0;i<32;i++){
+        auto temp=retriever[i]->query(vec,k);
+    }
+}

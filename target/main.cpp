@@ -21,7 +21,7 @@ int main(){
         Vector vec(ve);
         if(opt==0) testRetriever.insert(vec);
         else{
-            std::vector<Vector> res=testRetriever.query(vec);
+            std::vector<Vector> res=testRetriever.query(vec,k);
             for(auto item:res) item.print();
         }
     }

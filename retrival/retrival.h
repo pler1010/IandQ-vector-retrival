@@ -11,7 +11,7 @@ private:
 public:
     void init();
     void insert(const Vector &vec);
-    std::vector<Vector> query(const Vector &vec);
+    std::vector<Vector> query(const Vector &vec,int k);
     
 };
 
