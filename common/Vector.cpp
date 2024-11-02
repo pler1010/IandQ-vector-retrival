@@ -2,8 +2,7 @@
 
 
 Vector::Vector(const std::vector<float> &initvec){
-    vec.resize(initvec.size());
-    for(float item:initvec) vec.push_back(item);
+    vec=initvec;
 }
 
 int Vector::size()const{

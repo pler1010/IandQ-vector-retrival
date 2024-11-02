@@ -31,6 +31,7 @@ std::vector<Vector> Retriever::query(const Vector &vec,int k){
     std::vector<Vector> res;
     while(!qu.empty()&&res.size()<k){
         Vector item=qu.top().second;
+        qu.pop();
         res.push_back(item);
     }
     return res;
