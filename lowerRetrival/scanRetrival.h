@@ -8,7 +8,7 @@ public:
     void init();
     void merge(const std::vector<Vector> &vec);
     void merge(const Vector &vec);
-    std::vector<Vector> query(const Vector &ve);
+    std::vector<Vector> query(const Vector &ve,int k);
 };
 
 #endif
