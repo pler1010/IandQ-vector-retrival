@@ -10,8 +10,8 @@ int main(){
     freopen("test.in","r",stdin);
     freopen("test.out","w",stdout);
 
-    int q,d;
-    scanf("%d%d",&q,&d);
+    int q,d,k;
+    scanf("%d%d%d",&q,&d,&k);
     for(int i=1;i<=q;i++){
         int opt;
         scanf("%d",&opt);
