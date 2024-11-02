@@ -1,12 +1,12 @@
 CC = clang-15
 CFLAGS = -Wall
 
-%.o: %.cpp
+%.o: %.c
 	$(CC) $(CFLAGS) -c %< -o $@
 
 program: main.o
 	$(CC) -o program main.o
 
-.PHONY clean
+.PHONY: clean
 clean:
 	rm -f *.o program
