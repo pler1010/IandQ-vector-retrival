@@ -5,7 +5,7 @@
 class ScanRetrival:public BasicRetrival{
 private:
 public:
-    ScanRetrival(){}
+    ScanRetrival();
     void init();
     void merge(const std::vector<Vector> &vec);
     void merge(const Vector &vec);

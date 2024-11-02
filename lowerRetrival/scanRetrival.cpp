@@ -2,6 +2,8 @@
 #include <scanRetrival.h>
 #include <queue>
 
+ScanRetrival::ScanRetrival(){}
+
 void ScanRetrival::init(){
     vecs.clear();
 }
